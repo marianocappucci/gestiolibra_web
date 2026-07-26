@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios y recursos — Documentación Gestiolibra</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="/" class="navbar-brand" style="text-decoration:none"><div class="logo-icon">G</div>Gestiolibra</a>
+  <div class="navbar-links">
+    <a href="/#funciones">Funciones</a>
+    <a href="/#planes">Planes</a>
+    <a href="/docs/" style="color:var(--brand)">Documentación</a>
+  </div>
+</nav>
+
+<div class="docs-wrapper">
+  <nav class="docs-sidebar">
+    <div class="docs-sidebar-section">Inicio</div>
+    <a href="/docs/">Introducción</a>
+    <a href="/docs/primeros-pasos.html">Primeros pasos</a>
+    <div class="docs-sidebar-section">Configuración</div>
+    <a href="/docs/sucursales.html">Sucursales y horario</a>
+    <a href="/docs/servicios-y-recursos.html" class="active">Servicios y recursos</a>
+    <div class="docs-sidebar-section">Turnos</div>
+    <a href="/docs/disponibilidad.html">Disponibilidad y bloqueos</a>
+    <a href="/docs/agenda-turnos.html">Agenda y turnos</a>
+    <a href="/docs/clientes.html">Clientes</a>
+    <div class="docs-sidebar-section">Estándar</div>
+    <a href="/docs/recordatorios-senas.html">Recordatorios y señas</a>
+    <div class="docs-sidebar-section">Premium</div>
+    <a href="/docs/facturacion.html">Facturación electrónica</a>
+    <a href="/docs/caja.html">Caja</a>
+    <a href="/docs/dashboard.html">Dashboard</a>
+    <div class="docs-sidebar-section">Cuenta</div>
+    <a href="/docs/usuarios-roles.html">Usuarios y roles</a>
+  </nav>
+
+  <main class="docs-content">
+    <h1>Servicios y recursos</h1>
+    <p class="docs-lead">El catálogo de Gestiolibra tiene dos piezas: el <strong>recurso</strong> que atiende y el <strong>servicio</strong> que se ofrece.</p>
+
+    <h2>Recursos</h2>
+    <p>Un recurso es lo que efectivamente "recibe" un turno: un profesional, un box, una máquina de lavado, un elevador de taller. Cada recurso pertenece a una sucursal y tiene su propia <a href="/docs/disponibilidad.html">disponibilidad</a>.</p>
+    <p>Andá a <strong>Recursos → Nuevo recurso</strong>, elegí la sucursal y ponele un nombre identificable (por ejemplo, "Box 2" o el nombre del profesional).</p>
+
+    <h2>Servicios</h2>
+    <p>Un servicio define qué se ofrece: nombre, duración y qué recurso lo puede brindar. Se carga en <strong>Servicios → Nuevo servicio</strong>.</p>
+
+    <h2>Precio por sucursal</h2>
+    <p>El precio de un servicio se configura <strong>por sucursal</strong>, no como un campo único del servicio — un mismo corte de pelo puede costar distinto en cada local. Esto se carga en <strong>Servicios → (elegir servicio) → Precios</strong>.</p>
+
+    <div class="callout">
+      <p><strong>Tip:</strong> si todavía no facturás (plan Básico), el precio igual sirve como referencia para saber cuánto cobrar al completar el turno.</p>
+    </div>
+
+    <h2>Relación con la agenda</h2>
+    <p>Al reservar un turno se elige primero el servicio, y el sistema filtra los recursos que pueden brindarlo. Ver <a href="/docs/agenda-turnos.html">Agenda y turnos</a>.</p>
+
+    <div class="docs-nav-footer">
+      <a href="/docs/sucursales.html">← Sucursales y horario</a>
+      <a href="/docs/disponibilidad.html">Disponibilidad y bloqueos →</a>
+    </div>
+  </main>
+</div>
+
+<footer style="background:var(--dark);color:#94a3b8;text-align:center;padding:1.5rem;font-size:.85rem;">
+  © 2026 Gestiolibra · <a href="/" style="color:#94a3b8">Inicio</a>
+</footer>
+</body>
+</html>

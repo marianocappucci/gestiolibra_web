@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda y turnos — Documentación Gestiolibra</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="/" class="navbar-brand" style="text-decoration:none"><div class="logo-icon">G</div>Gestiolibra</a>
+  <div class="navbar-links">
+    <a href="/#funciones">Funciones</a>
+    <a href="/#planes">Planes</a>
+    <a href="/docs/" style="color:var(--brand)">Documentación</a>
+  </div>
+</nav>
+
+<div class="docs-wrapper">
+  <nav class="docs-sidebar">
+    <div class="docs-sidebar-section">Inicio</div>
+    <a href="/docs/">Introducción</a>
+    <a href="/docs/primeros-pasos.html">Primeros pasos</a>
+    <div class="docs-sidebar-section">Configuración</div>
+    <a href="/docs/sucursales.html">Sucursales y horario</a>
+    <a href="/docs/servicios-y-recursos.html">Servicios y recursos</a>
+    <div class="docs-sidebar-section">Turnos</div>
+    <a href="/docs/disponibilidad.html">Disponibilidad y bloqueos</a>
+    <a href="/docs/agenda-turnos.html" class="active">Agenda y turnos</a>
+    <a href="/docs/clientes.html">Clientes</a>
+    <div class="docs-sidebar-section">Estándar</div>
+    <a href="/docs/recordatorios-senas.html">Recordatorios y señas</a>
+    <div class="docs-sidebar-section">Premium</div>
+    <a href="/docs/facturacion.html">Facturación electrónica</a>
+    <a href="/docs/caja.html">Caja</a>
+    <a href="/docs/dashboard.html">Dashboard</a>
+    <div class="docs-sidebar-section">Cuenta</div>
+    <a href="/docs/usuarios-roles.html">Usuarios y roles</a>
+  </nav>
+
+  <main class="docs-content">
+    <h1>Agenda y turnos</h1>
+    <p class="docs-lead">El ciclo de vida completo de un turno: reservar, confirmar, completar, cancelar o reprogramar.</p>
+
+    <h2>Reservar un turno</h2>
+    <ol class="step-list">
+      <li>Andá a <strong>Agenda</strong> y elegí la sucursal y el recurso.</li>
+      <li>Elegí el servicio — el sistema ya sabe su duración y precio.</li>
+      <li>Elegí el cliente, o cargá uno nuevo desde el mismo formulario.</li>
+      <li>Elegí un horario disponible (el calendario solo muestra horarios válidos según la disponibilidad del recurso).</li>
+      <li>Confirmá. El turno queda en estado <kbd>confirmado</kbd>.</li>
+    </ol>
+
+    <h2>Completar un turno</h2>
+    <p>El día de la cita, marcá el turno como <strong>completado</strong> desde la agenda. Si tenés el plan Premium y el servicio tiene precio configurado, en este paso se te va a pedir el medio de pago y — si corresponde — se emite la factura (ver <a href="/docs/facturacion.html">Facturación electrónica</a>).</p>
+
+    <h2>Cancelar o reprogramar</h2>
+    <p>Ambas acciones piden un <strong>motivo</strong> opcional, que queda registrado en el historial del turno — útil para entender después por qué se movió o se canceló una reserva. Reprogramar valida de nuevo la disponibilidad real del recurso en el nuevo horario elegido.</p>
+
+    <div class="callout">
+      <p><strong>Tip:</strong> un turno cancelado no libera automáticamente una seña ya cobrada — eso se gestiona desde <a href="/docs/recordatorios-senas.html">Señas</a>.</p>
+    </div>
+
+    <h2>Estados de un turno</h2>
+    <table class="docs-table">
+      <thead><tr><th>Estado</th><th>Significado</th></tr></thead>
+      <tbody>
+        <tr><td><kbd>confirmado</kbd></td><td>Reservado, todavía no atendido</td></tr>
+        <tr><td><kbd>completado</kbd></td><td>El cliente fue atendido</td></tr>
+        <tr><td><kbd>cancelado</kbd></td><td>No se va a atender, con motivo opcional</td></tr>
+      </tbody>
+    </table>
+
+    <div class="docs-nav-footer">
+      <a href="/docs/disponibilidad.html">← Disponibilidad y bloqueos</a>
+      <a href="/docs/clientes.html">Clientes →</a>
+    </div>
+  </main>
+</div>
+
+<footer style="background:var(--dark);color:#94a3b8;text-align:center;padding:1.5rem;font-size:.85rem;">
+  © 2026 Gestiolibra · <a href="/" style="color:#94a3b8">Inicio</a>
+</footer>
+</body>
+</html>

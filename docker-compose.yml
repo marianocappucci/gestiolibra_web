@@ -8,6 +8,20 @@ services:
       - "8083:80"
     networks:
       - stack-net
+    depends_on:
+      - auth
+
+  auth:
+    build: ./auth
+    image: gestiolibra-web-auth:latest
+    container_name: gestiolibra-web-auth
+    restart: unless-stopped
+    environment:
+      - DOCS_AUTH_SECRET=${DOCS_AUTH_SECRET:-}
+      - DOCS_SESSION_SECRET=${DOCS_SESSION_SECRET:-gestiolibra-docs-secret-change-me}
+      - APEX_DOMAIN=${APEX_DOMAIN:-gestiolibra.com.ar}
+    networks:
+      - stack-net
 
 networks:
   stack-net:
