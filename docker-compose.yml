@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    image: gestiolibra-web:latest
+    container_name: gestiolibra-web
+    restart: unless-stopped
+    ports:
+      - "8083:80"
+    networks:
+      - stack-net
+
+networks:
+  stack-net:
+    external: true
+    name: stack_stack-net
