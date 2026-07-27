@@ -4,6 +4,8 @@ services:
     image: gestiolibra-web:latest
     container_name: gestiolibra-web
     restart: unless-stopped
+    environment:
+      - AUTH_UPSTREAM=gestiolibra-web-auth
     ports:
       - "8083:80"
     networks:
