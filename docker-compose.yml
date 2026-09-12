@@ -7,7 +7,7 @@ services:
     environment:
       - AUTH_UPSTREAM=gestiolibra-web-auth
     ports:
-      - "8083:80"
+      - "127.0.0.1:8083:80"
     networks:
       - stack-net
     depends_on:
