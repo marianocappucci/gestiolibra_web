@@ -22,6 +22,7 @@
   <div class="navbar-links">
     <a href="#funciones">Funciones</a>
     <a href="#planes">Planes</a>
+    <a href="#preguntas">Preguntas</a>
     <a href="/docs/">Documentación</a>
     <!-- demo-publica --><a href="https://demo.gestiolibra.com.ar/" target="_blank" rel="noopener">Ver la demo</a>
     <a href="https://wa.me/5491127752983?text=Hola,%20quiero%20info%20sobre%20Gestiolibra" target="_blank" class="btn-nav">Contactar</a>
@@ -42,6 +43,14 @@
     </a>
   </div>
 </section>
+
+<!-- ── Puntos fuertes ─────────────────────────────────────── -->
+<div class="highlights">
+  <div class="highlight"><i class="bi bi-calendar2-check"></i><div><strong>Agenda online</strong><span>Por sucursal y recurso</span></div></div>
+  <div class="highlight"><i class="bi bi-bell"></i><div><strong>Recordatorios</strong><span>Avisos 24hs y 2hs antes</span></div></div>
+  <div class="highlight"><i class="bi bi-wallet2"></i><div><strong>Señas</strong><span>Cobrá al reservar</span></div></div>
+  <div class="highlight"><i class="bi bi-receipt"></i><div><strong>Facturación ARCA</strong><span>Factura A y B con CAE</span></div></div>
+</div>
 
 <!-- ── Funciones ──────────────────────────────────────────── -->
 <section id="funciones">
@@ -152,17 +161,79 @@
   </div>
 </section>
 
+<!-- ── Capturas de la demo ────────────────────────────────── -->
+<section class="showcase">
+  <div class="container">
+    <div class="section-label">Así se ve</div>
+    <h2 class="section-title">La semana de tu negocio, de un vistazo</h2>
+    <p class="section-sub">La agenda y el tablero. Capturas reales de la demo, con datos de prueba.</p>
+    <div class="showcase-grid">
+      <figure class="showcase-fig">
+        <div class="browser">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+            <div class="browser-url">demo.gestiolibra.com.ar/agenda</div>
+          </div>
+          <div class="browser-body">
+            <img src="/img/demo-agenda.jpg" width="2160" height="1350" loading="lazy"
+                 alt="Agenda semanal de Gestiolibra: turnos de cada cliente por día y hora, con un color por recurso">
+          </div>
+        </div>
+        <figcaption>La agenda: los turnos de cada recurso, por día y por semana.</figcaption>
+      </figure>
+      <figure class="showcase-fig">
+        <div class="browser">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+            <div class="browser-url">demo.gestiolibra.com.ar/reportes</div>
+          </div>
+          <div class="browser-body">
+            <img src="/img/demo-tablero.jpg" width="2160" height="1350" loading="lazy"
+                 alt="Tablero de Gestiolibra: turnos del período por estado, clientes, recordatorios y señas, y facturación con ingresos y saldo">
+          </div>
+        </div>
+        <figcaption>El tablero: turnos, clientes, señas y facturación del período.</figcaption>
+      </figure>
+    </div>
+    <div class="showcase-cta">
+      <!-- demo-publica --><a href="https://demo.gestiolibra.com.ar/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+        <i class="bi bi-play-circle"></i> Probar la demo
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- ── Rubros ─────────────────────────────────────────────── -->
 <section class="alt">
-  <div class="container" style="text-align:center">
+  <div class="container">
     <div class="section-label">Para qué negocios</div>
     <h2 class="section-title">Pensado para negocios de servicios con turnos</h2>
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem;margin-top:2rem">
-      <span style="background:white;border:1px solid var(--border);border-radius:999px;padding:.5rem 1.2rem;font-weight:600;font-size:.9rem;color:var(--dark-2)"><i class="bi bi-scissors" style="color:var(--brand);margin-right:.4rem"></i>Barberías y peluquerías</span>
-      <span style="background:white;border:1px solid var(--border);border-radius:999px;padding:.5rem 1.2rem;font-weight:600;font-size:.9rem;color:var(--dark-2)"><i class="bi bi-flower1" style="color:var(--brand);margin-right:.4rem"></i>Centros de estética</span>
-      <span style="background:white;border:1px solid var(--border);border-radius:999px;padding:.5rem 1.2rem;font-weight:600;font-size:.9rem;color:var(--dark-2)"><i class="bi bi-droplet" style="color:var(--brand);margin-right:.4rem"></i>Lavaderos de auto</span>
-      <span style="background:white;border:1px solid var(--border);border-radius:999px;padding:.5rem 1.2rem;font-weight:600;font-size:.9rem;color:var(--dark-2)"><i class="bi bi-tools" style="color:var(--brand);margin-right:.4rem"></i>Talleres</span>
-      <span style="background:white;border:1px solid var(--border);border-radius:999px;padding:.5rem 1.2rem;font-weight:600;font-size:.9rem;color:var(--dark-2)"><i class="bi bi-briefcase" style="color:var(--brand);margin-right:.4rem"></i>Servicios profesionales</span>
+    <div class="rubros">
+      <div class="rubro">
+        <div class="rubro-icon"><i class="bi bi-scissors"></i></div>
+        <h3>Barberías y peluquerías</h3>
+        <p>Turnos por profesional, con recordatorios automáticos para reducir ausencias.</p>
+      </div>
+      <div class="rubro">
+        <div class="rubro-icon"><i class="bi bi-flower1"></i></div>
+        <h3>Centros de estética</h3>
+        <p>Agenda por profesional o box, con señas para asegurar la reserva.</p>
+      </div>
+      <div class="rubro">
+        <div class="rubro-icon"><i class="bi bi-droplet"></i></div>
+        <h3>Lavaderos de auto</h3>
+        <p>Turnos por box o máquina, según la duración de cada servicio.</p>
+      </div>
+      <div class="rubro">
+        <div class="rubro-icon"><i class="bi bi-tools"></i></div>
+        <h3>Talleres</h3>
+        <p>Turnos por recurso y facturación electrónica ARCA al completar el turno.</p>
+      </div>
+      <div class="rubro">
+        <div class="rubro-icon"><i class="bi bi-briefcase"></i></div>
+        <h3>Servicios profesionales</h3>
+        <p>Agenda online por profesional, con recordatorios antes de cada turno.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -204,7 +275,7 @@
       <!-- Básico -->
       <div class="plan-card">
         <div class="plan-name">Básico</div>
-        <div class="plan-price" style="font-size:1.4rem">Consultar</div>
+        <div class="plan-price">Consultar</div>
         <p class="plan-desc">Para empezar a ordenar la agenda de tu negocio.</p>
         <ul class="plan-features">
           <li><i class="bi bi-check-circle-fill icon-check"></i> Agenda y turnos por sucursal/recurso</li>
@@ -226,7 +297,7 @@
       <div class="plan-card featured">
         <div class="plan-featured-tag">Más popular</div>
         <div class="plan-name">Estándar</div>
-        <div class="plan-price" style="font-size:1.4rem">Consultar</div>
+        <div class="plan-price">Consultar</div>
         <p class="plan-desc">Para negocios que quieren reducir ausencias y asegurar la reserva.</p>
         <ul class="plan-features">
           <li><i class="bi bi-check-circle-fill icon-check"></i> Todo lo del plan Básico</li>
@@ -242,7 +313,7 @@
       <!-- Premium -->
       <div class="plan-card">
         <div class="plan-name">Premium</div>
-        <div class="plan-price" style="font-size:1.4rem">Consultar</div>
+        <div class="plan-price">Consultar</div>
         <p class="plan-desc">Para negocios que facturan y quieren visibilidad completa de la operación.</p>
         <ul class="plan-features">
           <li><i class="bi bi-check-circle-fill icon-check"></i> Todo lo del plan Estándar</li>
@@ -263,6 +334,43 @@
   </div>
 </section>
 
+<!-- ── Preguntas frecuentes ───────────────────────────────── -->
+<section id="preguntas" class="faq">
+  <div class="container faq-container">
+    <div class="section-label">Preguntas frecuentes</div>
+    <h2 class="section-title">Lo que más nos preguntan</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>¿Tengo que instalar algo?</summary>
+        <p>No. Gestiolibra funciona desde el navegador, sin instalaciones: reservás, confirmás y completás los turnos desde ahí.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo emitir facturas electrónicas?</summary>
+        <p>Sí, con el plan Premium: facturas A o B vía ARCA (ex-AFIP) con CAE en tiempo real, al completar un turno con saldo pendiente. Para facturar se conectan los certificados ARCA de tu negocio.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cuánto cuesta?</summary>
+        <p>El precio depende del tamaño de tu operación: escribinos por WhatsApp y te lo pasamos. El dominio de turnos y catálogo nunca se limita por plan.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué pasa con los datos de mi negocio?</summary>
+        <p>Cada negocio tiene su propia instancia y su base de datos aislada, con backup y restore. Tus datos no se mezclan con los de nadie más.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo cobrar una seña al reservar?</summary>
+        <p>Sí, con el plan Estándar o superior: cobrás la seña al reservar y queda registrado el medio de pago (efectivo, transferencia, MercadoPago).</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Les avisan a los clientes antes del turno?</summary>
+        <p>Sí, con el plan Estándar o superior: hay avisos automáticos antes del turno (24hs y 2hs) para reducir las ausencias.</p>
+      </details>
+    </div>
+    <p class="faq-more">¿Te quedó otra duda? <a href="https://wa.me/5491127752983?text=Hola,%20tengo%20una%20consulta%20sobre%20Gestiolibra" target="_blank" rel="noopener">Escribinos por WhatsApp</a>.</p>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Tengo que instalar algo?", "acceptedAnswer": {"@type": "Answer", "text": "No. Gestiolibra funciona desde el navegador, sin instalaciones: reservás, confirmás y completás los turnos desde ahí."}}, {"@type": "Question", "name": "¿Puedo emitir facturas electrónicas?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, con el plan Premium: facturas A o B vía ARCA (ex-AFIP) con CAE en tiempo real, al completar un turno con saldo pendiente. Para facturar se conectan los certificados ARCA de tu negocio."}}, {"@type": "Question", "name": "¿Cuánto cuesta?", "acceptedAnswer": {"@type": "Answer", "text": "El precio depende del tamaño de tu operación: escribinos por WhatsApp y te lo pasamos. El dominio de turnos y catálogo nunca se limita por plan."}}, {"@type": "Question", "name": "¿Qué pasa con los datos de mi negocio?", "acceptedAnswer": {"@type": "Answer", "text": "Cada negocio tiene su propia instancia y su base de datos aislada, con backup y restore. Tus datos no se mezclan con los de nadie más."}}, {"@type": "Question", "name": "¿Puedo cobrar una seña al reservar?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, con el plan Estándar o superior: cobrás la seña al reservar y queda registrado el medio de pago (efectivo, transferencia, MercadoPago)."}}, {"@type": "Question", "name": "¿Les avisan a los clientes antes del turno?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, con el plan Estándar o superior: hay avisos automáticos antes del turno (24hs y 2hs) para reducir las ausencias."}}]}</script>
+
 <!-- ── CTA final ──────────────────────────────────────────── -->
 <section class="cta-section">
   <h2>¿Listo para ordenar los turnos de tu negocio?</h2>
@@ -274,44 +382,46 @@
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────── -->
-<footer>
-  <div class="footer-inner">
-    <div>
+<footer class="site-footer">
+  <div class="f-inner">
+    <div class="f-about">
       <div class="footer-brand">
-        <img src="/img/marca.svg" alt="" class="logo-icon" width="28" height="28">
+        <img src="/img/marca.svg" alt="" class="logo-icon f-logo" width="28" height="28">
         Gestiolibra
       </div>
-      <div class="footer-tagline">Turnos y agenda para negocios de servicios</div>
+      <p class="f-tagline">Turnos y agenda para negocios de servicios: recordatorios, señas y facturación electrónica ARCA.</p>
+      <a href="https://wa.me/5491127752983?text=Hola,%20quiero%20info%20sobre%20Gestiolibra" target="_blank" rel="noopener" class="f-cta">
+        <i class="bi bi-whatsapp"></i> Escribinos por WhatsApp
+      </a>
     </div>
-    <div style="display:flex;gap:3rem;flex-wrap:wrap">
-      <div>
-        <div style="font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#475569;margin-bottom:.75rem">Sistema</div>
-        <div style="display:flex;flex-direction:column;gap:.4rem">
-          <a href="#funciones" style="color:#94a3b8;font-size:.9rem">Funciones</a>
-          <a href="#planes" style="color:#94a3b8;font-size:.9rem">Planes</a>
-          <a href="/docs/" style="color:#94a3b8;font-size:.9rem">Documentación</a>
-        </div>
-      </div>
-      <div>
-        <div style="font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#475569;margin-bottom:.75rem">Contacto</div>
-        <div style="display:flex;flex-direction:column;gap:.4rem">
-          <a href="https://wa.me/5491127752983" target="_blank" style="color:#94a3b8;font-size:.9rem"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
-          <a href="mailto:soporte@gestiolibra.com.ar" style="color:#94a3b8;font-size:.9rem"><i class="bi bi-envelope me-1"></i>Email</a>
-        </div>
-      </div>
-      <div>
-        <div style="font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#475569;margin-bottom:.75rem">Familia Libra</div>
-        <div style="display:flex;flex-direction:column;gap:.4rem">
-          <a href="https://medlibra.com.ar" target="_blank" rel="noopener" style="color:#94a3b8;font-size:.9rem">MedLibra — Turnos para salud</a>
-          <a href="https://ventalibra.com.ar" target="_blank" rel="noopener" style="color:#94a3b8;font-size:.9rem">VentaLibra — Punto de venta</a>
-          <a href="https://contalibra.com.ar" target="_blank" rel="noopener" style="color:#94a3b8;font-size:.9rem">Contalibra — ERP & Facturación</a>
-          <a href="https://restolibra.com.ar" target="_blank" rel="noopener" style="color:#94a3b8;font-size:.9rem">Restolibra — Gestión gastronómica</a>
-        </div>
-      </div>
-    </div>
+    <nav class="f-col" aria-label="Sistema">
+      <div class="f-title">Sistema</div>
+      <a href="#funciones">Funciones</a>
+      <a href="#planes">Planes</a>
+      <a href="#preguntas">Preguntas frecuentes</a>
+      <a href="/docs/">Documentación</a>
+      <!-- demo-publica --><a href="https://demo.gestiolibra.com.ar/" target="_blank" rel="noopener">Ver la demo</a>
+    </nav>
+    <nav class="f-col" aria-label="Contacto">
+      <div class="f-title">Contacto</div>
+      <a href="https://wa.me/5491127752983" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i>WhatsApp</a>
+      <a href="mailto:soporte@gestiolibra.com.ar"><i class="bi bi-envelope"></i>soporte@gestiolibra.com.ar</a>
+    </nav>
+    <nav class="f-col f-family" aria-label="LibraSuite">
+      <div class="f-title">LibraSuite</div>
+      <a href="https://librasuite.com.ar" target="_blank" rel="noopener">LibraSuite<small>Todos los sistemas de la suite</small></a>
+      <a href="https://ventalibra.com.ar" target="_blank" rel="noopener">VentaLibra<small>Punto de venta para retail</small></a>
+      <a href="https://contalibra.com.ar" target="_blank" rel="noopener">Contalibra<small>ERP y facturación</small></a>
+      <a href="https://restolibra.com.ar" target="_blank" rel="noopener">Restolibra<small>Gestión gastronómica</small></a>
+      <a href="https://medlibra.com.ar" target="_blank" rel="noopener">MedLibra<small>Turnos para salud</small></a>
+      <a href="https://libradesk.com.ar" target="_blank" rel="noopener">LibraDesk<small>Mesa de ayuda y service IT</small></a>
+      <a href="https://libracargo.com.ar" target="_blank" rel="noopener">LibraCargo<small>Agencias de cargas</small></a>
+      <a href="https://libraclub.com.ar" target="_blank" rel="noopener">LibraClub<small>Reservas de canchas</small></a>
+    </nav>
   </div>
-  <div class="footer-copy">
-    © 2026 Gestiolibra · parte de la familia Libra · Todos los derechos reservados
+  <div class="f-bottom">
+    <span>© 2026 Gestiolibra · parte de <a href="https://librasuite.com.ar" target="_blank" rel="noopener">LibraSuite</a> · Todos los derechos reservados</span>
+    <a href="/legal/terminos.html">Términos y condiciones</a>
   </div>
 </footer>
 
